@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Routes Check
 app.get('/', (req, res) => {
-  console.log("HIT SUCCESS")
+  console.log("API HIT SUCCESS")
   res.send('Welcome to the Node.js environment example!');
 });
 
