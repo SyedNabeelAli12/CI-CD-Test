@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 
-// Routes
+// Routes Check
 app.get('/', (req, res) => {
   console.log("HIT SUCCESS")
   res.send('Welcome to the Node.js environment example!');
